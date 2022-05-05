@@ -1,14 +1,12 @@
-// 2.Area Of Circle
+// 3.Area of square
 #include <iostream>
 using namespace std;
 int main()
 {
-    float r, pi = 3.14;
-    int height;
-    cout << "Enter the value of r :- ";
-    cin >> r;
+    int s;
+    cout << "Enter the value of s :- ";
+    cin >> s;
 
-    cout << "Area of circle is :- " << r * r * pi << endl;
-    cout << "Volume this cylinder is :-" << r * r * pi * height << endl;
+    cout << "Area of square is :- " << s * s << endl;
     return 0;
 }
