@@ -1,14 +1,17 @@
-// 2.Area Of Circle 
-#include<iostream>
+// 1.Arithmetic Operation
+#include <iostream>
 using namespace std;
 int main()
 {
-     float r,pi=3.14;
-     int height;
-     cout<<"Enter the value of r :- ";
-     cin>>r;
+    int a, b;
+    cout << "Enter the value of a :- ";
+    cin >> a;
+    cout << "Enter the value of b :- ";
+    cin >> b;
 
-     cout<<"Area of circle is :- "<<r*r*pi<<endl;
-     cout<<"Volume this cylinder is :-"<<r*r*pi*height<<endl;
-     return 0;
+    cout << "a + b = " << a + b << endl;
+    cout << "a - b = " << a - b << endl;
+    cout << "a * b = " << a * b << endl;
+    cout << "a / b = " << a / b << endl;
+    return 0;
 }
